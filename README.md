@@ -37,7 +37,7 @@
 
 ## Настройка
 
-1. Клонировать репозиторий: git clone https://github.com/korotkovaliza/MlOps.git
+1. Клонирование репозитория: git clone https://github.com/korotkovaliza/MlOps.git
 2. Установка зависимостей с помощью poetry: poetry install
 
 3. Запуск обучения, инференса и экспорта модели onnx: python3 commands.py 
