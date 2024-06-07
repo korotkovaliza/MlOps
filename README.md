@@ -30,7 +30,6 @@
 ├── Dogs_predictions.csv
 ├── label_encoder.pkl
 ├── poetry.lock
-├── project_structure.txt
 ├── pyproject.toml
 ├── README.md
 └── setup.cfg
