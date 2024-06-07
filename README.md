@@ -1,4 +1,50 @@
 # ОПРЕДЕЛЕНИЕ ПОРОД СОБАК
+## Структура проекта
+
+md
+```
+.
+├── commands.py
+├── config
+│   └── config.yaml
+├── data
+├── dataclass.py
+├── data.dvc
+├── Dockerfile
+├── dog_mlops
+│   ├── dataclass.py
+│   ├── export_model.py
+│   ├── infer.py
+│   ├── __init__.py
+│   ├── model.py
+│   ├── __pycache__
+│   │   ├── dataclass.cpython-310.pyc
+│   │   ├── infer.cpython-310.pyc
+│   │   ├── train.cpython-310.pyc
+│   │   ├── export_model.cpython-310.pyc
+│   │   ├── __init__.cpython-310.pyc
+│   │   └── model.cpython-310.pyc
+│   ├── train.py
+│   └── utils.py
+├── dog_model.ckpt
+├── Dogs_predictions.csv
+├── label_encoder.pkl
+├── poetry.lock
+├── project_structure.txt
+├── pyproject.toml
+├── README.md
+└── setup.cfg
+```
+
+## Настройка
+
+1. Клонировать репозиторий
+   '''https://github.com/korotkovaliza/MlOps.git'''
+2. Установка зависимостей с помощью poetry
+   '''poetry install'''
+
+3. Запуск обучения, инференса и экспорта модели onnx :
+   '''python3 commands.py '''
 ## Формулировка задачи
 Создание модели классификации изображений для определения породы собаки на фотографии. Это нужно для автоматизации процесса идентификации пород собак на изображениях, что может быть полезно в приютах, ветеринарных клиниках или в различных приложениях для животноводов.
 

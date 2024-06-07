@@ -1,4 +1,18 @@
+*.pyc
+__pycache__/
+
+/dist
 /data
 
-.ckpt
+.env
+.venv
+/dog_env
+
+*.ckpt
+*.csv
+*.pkl
 /outputs
+
+/dog_data.zip
+.logs
+/lightning_logs
